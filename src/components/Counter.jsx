@@ -3,10 +3,11 @@ import { useState, useEffect } from "react";
 const Counter = () => {
   let [count, setCount] = useState(0);
 
-  //   //everytime when component rendered or re-rendered
-  //   useEffect(() => {
-  //     console.log("Counter Mounted when state changes!");
-  //   });
+    //everytime when component rendered or re-rendered
+    useEffect(() => {
+      console.log("Counter Mounted when state changes!");
+    });
+    
 
   //when whole component mount---> first time only
   useEffect(() => {
